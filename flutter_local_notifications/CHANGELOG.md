@@ -1,3 +1,15 @@
+## [22.2.0]
+
+* [Android][iOS][macOS] added support for callbacks to fire when a notification has been dismissed. This requires opting in by where the key requirements is to make use of the `dismissIsolate` property added to the `AndroidNotificationDetails` and `DarwinNotificationDetails` class. This indicates which isolate should be used to handle when a notification has been dismissed. Note on macOS, there is no support for background isolates so callback will always fire on the main isolate despite what is specified. Please see example app for more details on how to set up handling dismissals. Thanks to the PR from from [Vasily Laushkin](https://github.com/vlaushkin)
+* [iOS] fixed issue [#2807](https://github.com/MaikuB/flutter_local_notifications/issues/2807) where the manifest for SPM incorrectly declared the minimum iOS version is 11 when it should have been 13. Thanks to the PR from [Bizzwell](https://github.com/Bizzwell)
+
+## [22.1.0]
+
+* [Android] added support for `showBigPictureWhenCollapsed` in `BigPictureStyleInformation`. Thanks to the PR from [hiimax (Codematic)](https://github.com/hiimax)
+* [iOS][macOS] improved SPM compatibility
+* Migrated example app to use SPM and removed Cocoapods integration
+* Fixed API docs of `NotificationResponseType.selectedNotificationAction`. Thanks to the PR from [fush1m1](https://github.com/Fush1m1)
+
 ## [22.0.1]
 
 * [Windows] Suppress warning around usage of experimental coroutines. This is to fix issue [#2777](https://github.com/MaikuB/flutter_local_notifications/issues/2777)

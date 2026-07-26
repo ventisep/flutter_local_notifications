@@ -51,6 +51,13 @@ void callbackDispatcher() {
           } else {
             id = -1;
           }
+          // A plain action tap doesn't include a response type, so default to
+          // it when none is provided.
+          final Object? responseTypeIndex = event['notificationResponseType'];
+          final NotificationResponseType notificationResponseType =
+              responseTypeIndex is int
+              ? NotificationResponseType.values[responseTypeIndex]
+              : NotificationResponseType.selectedNotificationAction;
           callback?.call(
             NotificationResponse(
               id: id,
@@ -63,8 +70,7 @@ void callbackDispatcher() {
               responseReceivedAt: _dateTimeFromMillisecondsSinceEpoch(
                 event['responseReceivedAt'],
               ),
-              notificationResponseType:
-                  NotificationResponseType.selectedNotificationAction,
+              notificationResponseType: notificationResponseType,
             ),
           );
         });

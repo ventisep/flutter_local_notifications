@@ -198,6 +198,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
               'actions': <Map<String, Object>>[
                 <String, Object>{
                   'id': 'action1',
@@ -332,6 +333,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -430,6 +432,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -530,6 +533,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -631,6 +635,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -731,6 +736,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -831,6 +837,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -930,6 +937,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -1029,6 +1037,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -1133,11 +1142,13 @@ void main() {
                   'htmlFormatContentTitle': false,
                   'htmlFormatSummaryText': false,
                   'hideExpandedLargeIcon': false,
+                  'showBigPictureWhenCollapsed': false,
                 },
                 'tag': null,
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -1169,6 +1180,7 @@ void main() {
               htmlFormatContent: true,
               htmlFormatTitle: true,
               hideExpandedLargeIcon: true,
+              showBigPictureWhenCollapsed: true,
             ),
           );
 
@@ -1250,11 +1262,13 @@ void main() {
                 'htmlFormatContentTitle': true,
                 'htmlFormatSummaryText': true,
                 'hideExpandedLargeIcon': true,
+                'showBigPictureWhenCollapsed': true,
               },
               'tag': null,
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -1356,11 +1370,13 @@ void main() {
                 'htmlFormatContentTitle': false,
                 'htmlFormatSummaryText': false,
                 'hideExpandedLargeIcon': false,
+                'showBigPictureWhenCollapsed': false,
               },
               'tag': null,
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -1474,11 +1490,13 @@ void main() {
                   'htmlFormatContentTitle': true,
                   'htmlFormatSummaryText': true,
                   'hideExpandedLargeIcon': true,
+                  'showBigPictureWhenCollapsed': false,
                 },
                 'tag': null,
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -1582,6 +1600,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -1693,6 +1712,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -1789,6 +1809,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -1888,6 +1909,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -2006,6 +2028,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -2143,6 +2166,7 @@ void main() {
               'colorized': false,
               'number': null,
               'audioAttributesUsage': 5,
+              'dismissIsolate': null,
             },
           },
         ),
@@ -2249,6 +2273,7 @@ void main() {
                     'colorized': false,
                     'number': null,
                     'audioAttributesUsage': 5,
+                    'dismissIsolate': null,
                   },
                 },
               ),
@@ -2400,6 +2425,7 @@ void main() {
                     'colorized': false,
                     'number': null,
                     'audioAttributesUsage': 5,
+                    'dismissIsolate': null,
                   },
                 },
               ),
@@ -2509,6 +2535,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -2617,6 +2644,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -2726,6 +2754,7 @@ void main() {
                 'colorized': false,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
           ),
@@ -3080,6 +3109,7 @@ void main() {
                 'colorized': true,
                 'number': null,
                 'audioAttributesUsage': 5,
+                'dismissIsolate': null,
               },
             },
             'startType': AndroidServiceStartType.startSticky.index,
@@ -3111,6 +3141,97 @@ void main() {
         log.last,
         isMethodCall('requestExactAlarmsPermission', arguments: null),
       );
+    });
+
+    test('show with dismissIsolate', () async {
+      const AndroidInitializationSettings androidInitializationSettings =
+          AndroidInitializationSettings('app_icon');
+      const InitializationSettings initializationSettings =
+          InitializationSettings(android: androidInitializationSettings);
+      await flutterLocalNotificationsPlugin.initialize(
+        settings: initializationSettings,
+      );
+      await flutterLocalNotificationsPlugin.show(
+        id: 1,
+        title: 'notification title',
+        body: 'notification body',
+        notificationDetails: const NotificationDetails(
+          android: AndroidNotificationDetails(
+            'channelId',
+            'channelName',
+            dismissIsolate: NotificationDismissedIsolate.background,
+          ),
+        ),
+      );
+      final Map<dynamic, dynamic> platformSpecifics =
+          (log.last.arguments as Map<dynamic, dynamic>)['platformSpecifics']
+              as Map<dynamic, dynamic>;
+      expect(
+        platformSpecifics['dismissIsolate'],
+        NotificationDismissedIsolate.background.index,
+      );
+    });
+
+    test('show without dismissIsolate', () async {
+      const AndroidInitializationSettings androidInitializationSettings =
+          AndroidInitializationSettings('app_icon');
+      const InitializationSettings initializationSettings =
+          InitializationSettings(android: androidInitializationSettings);
+      await flutterLocalNotificationsPlugin.initialize(
+        settings: initializationSettings,
+      );
+      await flutterLocalNotificationsPlugin.show(
+        id: 1,
+        title: 'notification title',
+        body: 'notification body',
+        notificationDetails: const NotificationDetails(
+          android: AndroidNotificationDetails('channelId', 'channelName'),
+        ),
+      );
+      final Map<dynamic, dynamic> platformSpecifics =
+          (log.last.arguments as Map<dynamic, dynamic>)['platformSpecifics']
+              as Map<dynamic, dynamic>;
+      expect(platformSpecifics['dismissIsolate'], null);
+    });
+
+    test('notification dismissed response', () async {
+      const AndroidInitializationSettings androidInitializationSettings =
+          AndroidInitializationSettings('app_icon');
+      const InitializationSettings initializationSettings =
+          InitializationSettings(android: androidInitializationSettings);
+      NotificationResponse? receivedResponse;
+      await flutterLocalNotificationsPlugin.initialize(
+        settings: initializationSettings,
+        onDidReceiveNotificationResponse: (NotificationResponse response) {
+          receivedResponse = response;
+        },
+      );
+
+      await TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+          .handlePlatformMessage(
+            channel.name,
+            channel.codec.encodeMethodCall(
+              const MethodCall(
+                'didReceiveNotificationResponse',
+                <String, Object?>{
+                  'notificationId': 1,
+                  'actionId': null,
+                  'input': null,
+                  'payload': 'item x',
+                  'notificationResponseType': 2,
+                },
+              ),
+            ),
+            (ByteData? data) {},
+          );
+
+      expect(receivedResponse, isNotNull);
+      expect(
+        receivedResponse!.notificationResponseType,
+        NotificationResponseType.notificationDismissed,
+      );
+      expect(receivedResponse!.id, 1);
+      expect(receivedResponse!.payload, 'item x');
     });
   });
 }
