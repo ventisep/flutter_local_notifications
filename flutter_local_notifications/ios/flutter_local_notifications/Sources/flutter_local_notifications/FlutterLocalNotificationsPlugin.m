@@ -1103,7 +1103,8 @@ static FlutterError *getFlutterError(NSError *error) {
         response.notification.request.content.userInfo[DISMISS_ISOLATE];
     if (dismissIsolate != nil && dismissIsolate != [NSNull null]) {
       NSMutableDictionary *notificationResponseDict =
-          [self extractNotificationResponseDict:response];
+          [self extractNotificationResponseDict:response
+                             responseReceivedAt:responseReceivedAt];
       if ([dismissIsolate integerValue] == 0) {
         if (_initialized) {
           [_channel invokeMethod:@"didReceiveNotificationResponse"
